@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+/* font-family: 'Space Mono', monospace; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid #red;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-family: 'Space Mono', monospace;
+    font-size: 16px;
+    color: #fff;
+}
+
+a:link { text-decoration: none;
+    color: #fff;
+    }
+
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    margin-left: 140px;
+}
+
+header nav ul li {
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+body {
+        background-image: url("https://i.picsum.photos/id/1031/5446/3063.jpg?hmac=Zg0Vd3Bb7byzpvy-vv-fCffBW9EDp1coIbBFdEjeQWE");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+}
+
